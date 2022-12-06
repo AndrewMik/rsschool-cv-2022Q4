@@ -53,3 +53,8 @@ Administrative Resource is a local Belarusian consulting company that I joined s
 * Played a Product Owner role in the creation of company’s corporate website and was responsible for content management, SEO, SMM, online advertising (Google AdWords, Yandex Direct, Facebook), analytics. Worked with various vendors as a customer
 * Organized over 50 corporate and over 10 open seminars & trainings for company’s customers
 * Trained and mentored newcomers
+
+## Education
+
+**Bachelor’s degree of in Marketing & Economics, Belorussian State Economic University**
+
