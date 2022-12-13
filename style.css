@@ -11,7 +11,63 @@
     src: url("assets/fonts/OpenSans/static/OpenSans/OpenSans-Italic.ttf");
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    border: 1px solid red;
+}
+
+footer {
+    border: 1px solid red;
+}
+
 h1 { 
     font-family: OpenSans-Bold;
     color: navy; 
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    padding: 0px 12px;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
