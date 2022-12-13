@@ -1,1 +1,17 @@
-h1 { color: navy; }
+@font-face {
+    font-family: OpenSans-Regular, sans-serif;
+    src: url("assets/fonts/OpenSans/static/OpenSans/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: OpenSans-Bold, sans-serif;
+    src: url("assets/fonts/OpenSans/static/OpenSans/OpenSans-Bold.ttf");
+}
+@font-face {
+    font-family: OpenSans-Italic, sans-serif;
+    src: url("assets/fonts/OpenSans/static/OpenSans/OpenSans-Italic.ttf");
+}
+
+h1 { 
+    font-family: OpenSans-Bold;
+    color: navy; 
+}
