@@ -83,7 +83,7 @@ footer {
 
 .section-title {
     position: relative;
-    margin: 0.5em;
+    margin: 0.5em 0;
     font-family: OpenSans-Bold;
     font-size: 20px;
     letter-spacing: 5px;
@@ -94,6 +94,7 @@ footer {
 .main-title {
     font-size: 30px;
     margin-bottom: 20px;
+    margin-left: 0.5em;
     text-transform: uppercase;
 }
 
@@ -149,6 +150,13 @@ footer {
     justify-content: center;
     align-content: center;
     text-align: center;
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .contacts-item {
@@ -220,9 +228,25 @@ footer {
 }
 
 .summary-heading {
+    font-size: 18px;
     margin-bottom: 5px;
 }
 
 .summary-text {
     margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style: none;
+}
+
+.skill {
+    color: #7d4e4e;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }
