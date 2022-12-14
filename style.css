@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    font-size: 18px;
+    font-size: 16px;
     font-family: OpenSans-Regular, sans-serif;
     line-height: 1.5;
     color: #170404;
@@ -236,7 +236,7 @@ footer {
     margin-bottom: 10px;
 }
 
-.skills-list, .courses-list {
+.skills-list, .courses-list, .languages-list {
     list-style: none;
 }
 
@@ -255,3 +255,35 @@ footer {
     margin-top: 10px;
 }
 
+.experience-item, .experience-list {
+    font-size: 14px;
+    align-self: flex-start;
+}
+
+.company {
+    margin-top: 15px;
+    color: navy;
+    font-size: 18px;
+}
+
+.company-description {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.position-title {
+    margin-top: 10px;
+}
+
+.experience-section, .languages-container {
+    width: 100%;
+    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.experience-subitem {
+    margin-left: 20px;
+}
