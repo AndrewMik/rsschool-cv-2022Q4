@@ -219,3 +219,10 @@ footer {
     font-size: 18px;
 }
 
+.summary-heading {
+    margin-bottom: 5px;
+}
+
+.summary-text {
+    margin-bottom: 10px;
+}
