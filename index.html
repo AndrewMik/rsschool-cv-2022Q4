@@ -61,10 +61,32 @@
                 </ul>
             </section>
             <section class="section" id="code">
-                <h2 class="section-title"></h2>
+                <h2 class="section-title">Code</h2>
+                <p>Description:</p>
+                <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p> 
+                <p>Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).</p>   
+                <p>Note: If the number is a multiple of both 3 and 5, only count it once.</p>
+                <p class="my-coding-solution">Solution:</p>
+                <code>
+                function solution(number) {
+                <pre>    var sum = 0;</pre>
+                <pre>    for (var i = 1; i < number; i++) {</pre>
+                <pre>      if (i % 3 === 0 || i % 5 === 0) {</pre>
+                <pre>        sum += i;</pre>
+                <pre>      }</pre>
+                <pre>    }</pre>
+                <pre>    return sum;</pre>
+                }</code>
             </section>
-            <section class="section" id="courses">
-                <h2 class="section-title"></h2>
+            <section class="section courses-container" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="courses-list">
+                    <li class="courses-item">C Basics - <a href="https://trainingcenter.by/">Center for Learning Technologies</a></li>
+                    <li class="courses-item">C++ Basics - <a href="https://trainingcenter.by/">Center for Learning Technologies</a></li>
+                    <li class="courses-item">C# Basics - <a href="https://trainingcenter.by/">Center for Learning Technologies</a></li>
+                    <li class="courses-item">JavaScript Basics - <a href="https://trainingcenter.by/">Center for Learning Technologies</a></li>
+                    <li class="courses-item">JavaScript Stage 1 2018 - <a href="https://rs.school/">RS School</a></li>
+                </ul>
             </section>
             <section class="section" id="projects">
                 <h2 class="section-title"></h2>

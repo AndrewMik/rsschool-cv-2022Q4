@@ -168,7 +168,7 @@ footer {
     list-style-type: none;
 }
 
-.contacts-item a {
+.contacts-item a, .courses-item a {
     text-decoration: none;
     color: #7d4e4e;
     transition: color 0.5s;
@@ -236,7 +236,7 @@ footer {
     margin-bottom: 10px;
 }
 
-.skills-list {
+.skills-list, .courses-list {
     list-style: none;
 }
 
@@ -244,9 +244,14 @@ footer {
     color: #7d4e4e;
 }
 
-.skills-container {
+.skills-container, .courses-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
 }
+
+.my-coding-solution {
+    margin-top: 10px;
+}
+
