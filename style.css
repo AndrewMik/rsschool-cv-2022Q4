@@ -1,13 +1,13 @@
 @font-face {
-    font-family: OpenSans-Regular, sans-serif;
+    font-family: OpenSans-Regular;
     src: url("assets/fonts/OpenSans/static/OpenSans/OpenSans-Regular.ttf");
 }
 @font-face {
-    font-family: OpenSans-Bold, sans-serif;
+    font-family: OpenSans-Bold;
     src: url("assets/fonts/OpenSans/static/OpenSans/OpenSans-Bold.ttf");
 }
 @font-face {
-    font-family: OpenSans-Italic, sans-serif;
+    font-family: OpenSans-Italic;
     src: url("assets/fonts/OpenSans/static/OpenSans/OpenSans-Italic.ttf");
 }
 
@@ -32,14 +32,6 @@ body {
     justify-content: space-between;
 }
 
-main {
-    border: 1px solid red;
-}
-
-footer {
-    border: 1px solid red;
-}
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -56,7 +48,7 @@ footer {
 .nav-item {
     font-size: 18px;
     list-style: none;
-    padding: 0px 6px;
+    padding: 0px 0px;
 }
 
 .nav-link {
@@ -117,11 +109,33 @@ footer {
     .section {
       width: 100%;
     }
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .codewars-solution-code {
+        position: relative;
+        left: -50px;
+    }
+    .experience-section {
+        padding: 0;
+    }
 }
 
 @media (max-width: 1440px) {
     .main-container {
         padding: 0 20px;
+    }
+}
+
+@media (min-width: 769px) {
+    .codewars-solution-code {
+        position: relative;
+        left: -140px;
+    }
+    .experience-section {
+        padding: 0 20%;
     }
 }
 
@@ -168,7 +182,7 @@ footer {
     list-style-type: none;
 }
 
-.contacts-item a, .courses-item a {
+.contacts-item a, .courses-item a, .project a {
     text-decoration: none;
     color: #7d4e4e;
     transition: color 0.5s;
@@ -236,7 +250,7 @@ footer {
     margin-bottom: 10px;
 }
 
-.skills-list, .courses-list, .languages-list {
+.skills-list, .courses-list, .languages-list, .project {
     list-style: none;
 }
 
@@ -275,9 +289,8 @@ footer {
     margin-top: 10px;
 }
 
-.experience-section, .languages-container {
+.experience-section {
     width: 100%;
-    margin: 0 20%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -286,4 +299,16 @@ footer {
 
 .experience-subitem {
     margin-left: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.footer-container {
+    border-top: 15px solid black;
+    margin-top: 15px;
 }
