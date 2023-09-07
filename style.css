@@ -269,7 +269,7 @@ body {
 
 .contacts-container,
 .skills-container,
-.projects-container,
+.languages-container,
 .education-container {
     display: flex;
     flex-direction: column;
